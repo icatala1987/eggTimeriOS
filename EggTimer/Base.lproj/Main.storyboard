@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14865.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,7 +21,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9S4-l0-41N" userLabel="Title View">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="259.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you like your eggs?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XLm-5r-pSP" userLabel="Title Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Cómo te gusta los huevos?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="XLm-5r-pSP" userLabel="Title Label">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="259.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -47,7 +47,7 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNr-Dp-1Dg" userLabel="Soft Egg Button">
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
-                                                        <state key="normal" title="Soft"/>
+                                                        <state key="normal" title="Blando"/>
                                                         <connections>
                                                             <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bkf-np-fDk"/>
                                                         </connections>
@@ -73,7 +73,7 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3H-nl-7AG" userLabel="Medium Egg Button">
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
-                                                        <state key="normal" title="Medium"/>
+                                                        <state key="normal" title="Medio"/>
                                                         <connections>
                                                             <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pch-SQ-GuJ"/>
                                                         </connections>
@@ -99,7 +99,7 @@
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEu-V5-iHi" userLabel="Hard Egg Button">
                                                         <rect key="frame" x="0.0" y="0.0" width="118" height="259"/>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
-                                                        <state key="normal" title="Hard"/>
+                                                        <state key="normal" title="Duro"/>
                                                         <connections>
                                                             <action selector="hardnessSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgt-wb-PPS"/>
                                                         </connections>
